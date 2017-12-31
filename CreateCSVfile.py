@@ -23,8 +23,6 @@ def main():
     # create an array that will keep the labels for each row
     labels = []
 
-    scaler = StandardScaler()
-
     print("Creating the dataset.....")
     # for each folder
     for folder in train_folders:
